@@ -1,0 +1,12 @@
+syntax: glob
+
+.DS_Store
+releases/
+
+# /_build
+# /cover
+# /deps
+# erl_crash.dump
+# *.ez
+# build.log
+# .nerves
