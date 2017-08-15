@@ -1,6 +1,6 @@
 # Changelog
 
-#### Version 1.1 (working)
+#### Version 1.1 (15-Aug-2017)
 - Fork from nerves_system_rpi3
 - Buildroot 2017.05
 - Bump Linux kernel to 4.4.50
