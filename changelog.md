@@ -1,5 +1,9 @@
 # Changelog
 
+#### Version 1.2 (working)
+- Remove Erlang/erlinit/Exilir depends
+- fwup.conf improvements
+
 #### Version 1.1 (15-Aug-2017)
 - Fork from nerves_system_rpi3
 - Buildroot 2017.05
