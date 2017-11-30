@@ -1,6 +1,8 @@
 # Changelog
 
-#### Version 1.2 (working)
+#### Version 1.3 (working)
+
+#### Version 1.2 (29-Nov-2017)
 - Remove Erlang/erlinit/Exilir depends
 - fwup.conf improvements
 
