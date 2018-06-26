@@ -1,6 +1,8 @@
 # Changelog
 
-#### Version 1.3 (working)
+#### Version 1.4 (working)
+
+#### Version 1.3 (26-Jun-2018)
 * Upgraded the Linux kernel from 4.4 -> 4.9
 * Rename `roofts-additions` -> `rootfs_overlay`
 * Support for the Raspberry Pi Compute Module
