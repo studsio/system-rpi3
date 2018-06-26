@@ -4,13 +4,31 @@
 * Rename `roofts-additions` -> `rootfs_overlay`
 * Support for the Raspberry Pi Compute Module
 * Select ARM Cortex A53 as CPU for Buildroot
+* Disable console blanking for HDMI to make it easier to capture error messages.
+* Support for reverting firmware.
+* Add global patch directory
+    - This is required to pull in the e2fsprogs patch that's needed now that
+      util-linux's uuid_generate function calls getrandom and can block
+      indefinitely for the urandom pool to initialize
 * Buildroot 2017.08
 * Toolchains 0.12.1
 * fwup 0.17.0
 * nbtty 0.3.0
-* Add global patch directory (required to pull in the e2fsprogs patch that's
-  needed now that util-linux's uuid_generate function calls getrandom and can
-  block indefinitely for the urandom pool to initialize)
+
+
+ Updated dependencies
+ +
+ +  * Enhancements
+ +    * Reboot automatically if Erlang VM exits - This is consistent with other
+ +      Nerves systems. See rootfs_overlay/etc/erlinit.config if undesired.
+ +    * Start running nerves_system_linter to check for configuration errors.
+ +
+ +    * Automount the boot partition readonly at `/boot`
+ +
+ +
+ +
+ +
+ +
 
 #### Version 1.2 (29-Nov-2017)
 * Remove Erlang/erlinit/Exilir depends
