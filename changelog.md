@@ -2,7 +2,10 @@
 
 #### Version 1.3 (working)
 * Rename `roofts-additions` -> `rootfs_overlay`
+* Support for the Raspberry Pi Compute Module
+* Select ARM Cortex A53 as CPU for Buildroot
 * Buildroot 2017.08
+* Toolchains 0.12.1
 * fwup 0.17.0
 * nbtty 0.3.0
 * Add global patch directory (required to pull in the e2fsprogs patch that's
