@@ -13,9 +13,8 @@
     - This is required to pull in the e2fsprogs patch that's needed now that
       util-linux's uuid_generate function calls getrandom and can block
       indefinitely for the urandom pool to initialize
-* Buildroot 2017.08
+* Buildroot 2017.11
 * Toolchains 1.0.0
-* fwup 0.17.0
 * nbtty 0.3.0
 
 #### Version 1.2 (29-Nov-2017)
