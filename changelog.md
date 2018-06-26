@@ -1,6 +1,7 @@
 # Changelog
 
 #### Version 1.3 (working)
+- Rename `roofts-additions` -> `rootfs_overlay`
 
 #### Version 1.2 (29-Nov-2017)
 - Remove Erlang/erlinit/Exilir depends
