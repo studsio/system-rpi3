@@ -8,6 +8,7 @@
 * Disable console blanking for HDMI to make it easier to capture error messages
 * Support for reverting firmware
 * Support for Raspberry Pi 3 B+
+* The serial port on the GPIO pins is now assigned to "dev/ttyAMA0" like all other RPi systems
 * Add global patch directory
     - This is required to pull in the e2fsprogs patch that's needed now that
       util-linux's uuid_generate function calls getrandom and can block
