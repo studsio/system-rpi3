@@ -14,7 +14,7 @@
       util-linux's uuid_generate function calls getrandom and can block
       indefinitely for the urandom pool to initialize
 * Buildroot 2017.08
-* Toolchains 0.13.0
+* Toolchains 1.0.0
 * fwup 0.17.0
 * nbtty 0.3.0
 
